@@ -13,14 +13,14 @@ const Hero: React.FC = () => {
         muted
         loop
         playsInline
-        poster="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-wide-landscape.jpg"
+        poster="/assets/guitar-couch-wide-landscape.avif"
       >
-        <source src="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/improv-fullscreen-no-text.mp4" type="video/mp4" />
+        <source src="/assets/improv-fullscreen-no-text.mp4" type="video/mp4" />
       </video>
 
       {/* Background Image Fallback (Mobile) */}
       <img 
-        src="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-wide-landscape.jpg" 
+        src="/assets/guitar-couch-wide-landscape.avif" 
         alt="Lucas Terhaar playing guitar"
         className="sm:hidden block absolute inset-0 w-full h-full object-cover"
       />

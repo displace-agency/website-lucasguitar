@@ -15,9 +15,9 @@ const KidsHero = () => {
               className="w-full h-full object-cover"
               controls
               playsInline
-              poster="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/portrait-headshot-blue-shirt-alt.jpg"
+              poster="/assets/portrait-headshot-blue-shirt-alt.avif"
             >
-              <source src="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/sweet-child-fullscreen-no-text.mp4" type="video/mp4" />
+              <source src="/assets/sweet-child-fullscreen-no-text.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -380,11 +380,11 @@ const PracticalInfo = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
-    { q: "How long are lessons?", a: "For ages 5-8, I recommend 30-minute sessions. For ages 9-18, 45 or 60 minutes depending on attention span and goals." },
+    { q: "How long are lessons?", a: "Lessons are available in 30, 45, and 60 minutes. I recommend 30 or 45 minutes for most students. 60-minute sessions are also available on request." },
     { q: "Does my child need their own guitar?", a: "Not for the first lesson — I have instruments available. For regular lessons, I recommend getting a guitar. I can help you choose the right one for your child's age and size." },
     { q: "How much practice is expected?", a: "Ages 5-8: Just play for fun! Ages 9-12: 10-15 minutes daily. Ages 13-18: 20-30 minutes daily. But there's no homework — practice should feel like play, not a chore." },
-    { q: "What's the cancellation policy?", a: "Life with kids is unpredictable — I get it. You can cancel or reschedule up to 24 hours before a lesson at no charge." },
-    { q: "Can I sit in on lessons?", a: "Absolutely! For younger children (5-8), having a parent in the room often helps. For teens, I find they do better with some independence. We'll figure out what works." }
+    { q: "What's the cancellation policy?", a: "72+ hours before your lesson: free cancellation. Less than 48 hours notice: 50% charge. Less than 24 hours notice: full charge." },
+    { q: "Can I sit in on lessons?", a: "For children ages 5-8, parents may sit in for the first 3 lessons. After that, the child attends independently. We'll figure out what works." }
   ];
 
   const toggle = (idx: number) => {

@@ -4,18 +4,18 @@ const Testimonials: React.FC = () => {
   const testimonials = [
     {
       quote: "Lucas has a gift for making guitar feel accessible. My son went from zero to playing his favorite songs in just a few months.",
-      author: "Sarah M.",
+      author: "Thomas H.",
       detail: "Parent of 10-year-old student"
     },
     {
       quote: "The best guitar teacher in Berlin. His lessons are structured but never rigid — I always leave feeling inspired.",
-      author: "Thomas K.",
+      author: "Andrea W.",
       detail: "Adult student, 2 years"
     },
     {
       quote: "My daughter was shy about performing. After 6 months with Lucas, she played at her school concert. We couldn't be prouder.",
-      author: "Anna & Markus R.",
-      detail: "Parents of 12-year-old student"
+      author: "Anna R.",
+      detail: "Parent of 12-year-old student"
     }
   ];
 

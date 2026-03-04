@@ -63,7 +63,7 @@ const TestimonialStrip = () => {
           "Worth every euro. Lucas's lessons have transformed my daughter's relationship with music."
         </blockquote>
         <cite className="font-sans text-[14px] text-warm-gray not-italic block">
-          — Sarah M., parent of 10-year-old student
+          — Thomas H., parent of 10-year-old student
         </cite>
       </div>
     </section>
@@ -92,7 +92,7 @@ const PricingTables = () => {
           <div className="stagger-child col-span-1 md:col-span-4 bg-white border border-[#E8DFD3] rounded-xl p-8 text-center relative flex flex-col h-full">
             <h3 className="font-serif text-[20px] text-warm-black mb-2">Trial Lesson</h3>
             <div className="mb-1">
-              <span className="font-serif text-[clamp(2rem,3vw,3rem)] text-warm-black leading-none">15€</span>
+              <span className="font-serif text-[clamp(2rem,3vw,3rem)] text-warm-black leading-none">Free</span>
             </div>
             <p className="font-sans text-[14px] text-warm-gray mb-6">30 minutes</p>
             <p className="font-sans text-[13px] text-warm-gray leading-[1.5] mb-8 min-h-[40px]">
@@ -119,11 +119,15 @@ const PricingTables = () => {
             <h3 className="font-serif text-[20px] text-warm-black mb-4">Single Lesson</h3>
             <div className="flex flex-col gap-1 mb-6">
               <div>
-                <span className="font-serif text-[24px] text-warm-black">40-45€</span>
+                <span className="font-serif text-[24px] text-warm-black">25€</span>
+                <span className="font-sans text-[13px] text-warm-gray ml-2">/ 30 min</span>
+              </div>
+              <div>
+                <span className="font-serif text-[24px] text-warm-black">40€</span>
                 <span className="font-sans text-[13px] text-warm-gray ml-2">/ 45 min</span>
               </div>
               <div>
-                <span className="font-serif text-[24px] text-warm-black">50-55€</span>
+                <span className="font-serif text-[24px] text-warm-black">50€</span>
                 <span className="font-sans text-[13px] text-warm-gray ml-2">/ 60 min</span>
               </div>
             </div>
@@ -250,9 +254,9 @@ const PricingFAQ = () => {
   const faqs = [
     { q: "What payment methods do you accept?", a: "Bank transfer, PayPal, and cash. Payment is due before each lesson or at the start of a package." },
     { q: "Can I switch between 45 and 60 minute lessons?", a: "Absolutely. You can choose your session length each time you book. Many students start with 45 and move to 60 as they get more into it." },
-    { q: "What happens if I need to cancel?", a: "No problem — just let me know 24 hours before your lesson. Late cancellations or no-shows are charged at the full rate." },
+    { q: "What happens if I need to cancel?", a: "72+ hours before your lesson: free cancellation. Less than 48 hours notice: 50% charge. Less than 24 hours notice: full charge." },
     { q: "Do packages expire?", a: "10-lesson packages are valid for 4 months from purchase. This gives you plenty of flexibility while maintaining momentum." },
-    { q: "Is the trial lesson really only 15€?", a: "Yes! It's a get-to-know-each-other session. If you decide to continue, the trial fee is credited toward your first lesson package." },
+    { q: "Is the trial lesson really free?", a: "Yes! It's a free, no-pressure get-to-know-each-other session. We'll talk about your goals and see if we're a good fit." },
     { q: "Do you offer discounts for siblings?", a: "Yes — if two or more siblings take lessons, I offer a 10% family discount on all sessions." },
   ];
 
@@ -331,7 +335,6 @@ const Pricing = () => {
       <ValueGrid />
       <TestimonialStrip />
       <PricingTables />
-      <ComparisonTable />
       <PricingFAQ />
       <PricingCTA />
     </div>

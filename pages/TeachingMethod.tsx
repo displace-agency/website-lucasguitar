@@ -11,7 +11,7 @@ const MethodHero = () => {
         {/* Mobile: Image First */}
         <div className="col-span-4 lg:col-span-5 lg:col-start-8 lg:order-2 order-1 mb-6 lg:mb-0">
           <img 
-            src="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-burgundy-portrait.jpg" 
+            src="/assets/guitar-couch-burgundy-portrait.avif" 
             alt="Teaching Method" 
             className="w-full aspect-[3/4] object-cover rounded-lg shadow-offset-sm"
           />
@@ -174,22 +174,22 @@ const Instruments = () => {
     {
       title: "Electric Guitar",
       desc: "From classic rock to jazz fusion — explore distortion, effects, and techniques that define your sound.",
-      img: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-burgundy-closeup.jpg"
+      img: "/assets/guitar-couch-burgundy-closeup.avif"
     },
     {
       title: "Acoustic Guitar",
       desc: "Fingerpicking, strumming, and songwriting. The most versatile instrument and the foundation of it all.",
-      img: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-wide-landscape.jpg"
+      img: "/assets/guitar-couch-wide-landscape.avif"
     },
     {
       title: "Bass Guitar",
       desc: "The backbone of every band. Learn groove, rhythm, slap technique, and how to hold everything together.",
-      img: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-burgundy-portrait.jpg"
+      img: "/assets/guitar-couch-burgundy-portrait.avif"
     },
     {
       title: "Ukulele",
       desc: "Fun, portable, and the perfect entry point. Great for young beginners and anyone who wants to play quickly.",
-      img: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-bw-portrait.jpg"
+      img: "/assets/guitar-couch-bw-portrait.avif"
     }
   ];
 
@@ -226,7 +226,7 @@ const Instruments = () => {
 // Section 5: Genres
 const Genres = () => {
   const genres = [
-    "Jazz", "Gypsy Jazz", "Rock", "Blues", "Funk", "R&B", 
+    "Jazz", "Rock", "Blues", "Funk", "R&B",
     "Pop", "Classical", "Fingerstyle", "Improvisation", "Songwriting"
   ];
 
@@ -256,9 +256,9 @@ const Genres = () => {
             className="w-full h-full object-cover"
             controls
             playsInline
-            poster="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-wide-landscape.jpg"
+            poster="/assets/guitar-couch-wide-landscape.avif"
           >
-             <source src="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/minor-swing-fullscreen-with-text.mp4" type="video/mp4" />
+             <source src="/assets/minor-swing-fullscreen-with-text.mp4" type="video/mp4" />
           </video>
         </div>
       </div>

@@ -47,18 +47,14 @@ const ForKidsPreview: React.FC = () => {
           </div>
         </div>
 
-        {/* Video - Order 1 on mobile, Order 2 on Desktop */}
+        {/* Photo - Order 1 on mobile, Order 2 on Desktop */}
         <div className="order-1 md:order-2 md:col-span-6 flex justify-center md:justify-end">
-            <div className="w-full max-w-full aspect-[16/9] md:max-w-[360px] md:aspect-[9/16] rounded-lg overflow-hidden bg-warm-black relative group">
-                 <video
+            <div className="w-full max-w-full aspect-[16/9] md:max-w-[360px] md:aspect-[9/16] rounded-lg overflow-hidden">
+                 <img
                     className="w-full h-full object-cover"
-                    poster="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/portrait-headshot-blue-shirt-alt.jpg"
-                    controls
-                    playsInline
-                    preload="none"
-                 >
-                    <source src="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/stt-no-border-with-text.mp4" type="video/mp4" />
-                 </video>
+                    src="/assets/portrait-headshot-blue-shirt-alt.avif"
+                    alt="Lucas Terhaar teaching guitar"
+                 />
             </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const AboutSection: React.FC = () => {
         {/* Image - 5 cols desktop, full mobile */}
         <div className="md:col-span-5 w-full order-1 md:order-1 mb-6 md:mb-0">
           <img 
-            src="https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/portrait-headshot-blue-shirt.jpg" 
+            src="/assets/portrait-headshot-blue-shirt.avif" 
             alt="Lucas Terhaar" 
             className="w-full aspect-[3/4] object-cover rounded-lg"
           />

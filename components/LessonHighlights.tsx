@@ -27,22 +27,22 @@ const LessonHighlights: React.FC = () => {
     {
       title: "Electric Guitar",
       description: "From rock riffs to jazz chords — explore your sound on electric.",
-      image: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-burgundy-closeup.jpg"
+      image: "/assets/guitar-couch-burgundy-closeup.avif"
     },
     {
       title: "Acoustic Guitar",
       description: "Fingerpicking, strumming, and songwriting — the heart of the guitar.",
-      image: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-wide-landscape.jpg"
+      image: "/assets/guitar-couch-wide-landscape.avif"
     },
     {
       title: "Bass Guitar",
       description: "Groove, rhythm, and the foundation of every great band.",
-      image: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-burgundy-portrait.jpg"
+      image: "/assets/guitar-couch-burgundy-portrait.avif"
     },
     {
       title: "Ukulele",
       description: "The perfect starter instrument — fun, portable, and surprisingly versatile.",
-      image: "https://pub-4bf88f98ba4d45e5acd8c1b618eb037e.r2.dev/lucas-terhaar/website/guitar-couch-bw-portrait.jpg"
+      image: "/assets/guitar-couch-bw-portrait.avif"
     }
   ];
 

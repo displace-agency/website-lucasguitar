@@ -4,7 +4,7 @@ const TrustBar: React.FC = () => {
   const stats = [
     { value: "8+", label: "Years Teaching" },
     { value: "200+", label: "Students Taught" },
-    { value: "6+", label: "Genres Covered" },
+    { value: "Multiple", label: "Styles & Genres" },
     { value: "Berlin", label: "Based & Teaching" },
   ];
 
