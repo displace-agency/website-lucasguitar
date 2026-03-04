@@ -1,0 +1,534 @@
+{
+  "nav": {
+    "howITeach": "How I Teach",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "bookFree": "Book Free Meeting"
+  },
+  "hero": {
+    "label": "Guitar Lessons in Berlin",
+    "heading": "Your Sound, <br/> Your Journey",
+    "desc": "Personalized guitar lessons for kids and adults. Learn the music you love with a method that actually works.",
+    "cta": "Book Free Meeting",
+    "viewPricing": "View Pricing"
+  },
+  "trustBar": {
+    "stats": [
+      { "value": "8+", "label": "Years Teaching" },
+      { "value": "200+", "label": "Students Taught" },
+      { "value": "Multiple", "label": "Styles & Genres" },
+      { "value": "Berlin", "label": "Based & Teaching" }
+    ]
+  },
+  "about": {
+    "label": "Meet Your Teacher",
+    "heading": "I Believe Every Student Has a Unique Musical Voice",
+    "p1": "Hi, I'm Lucas — a guitar teacher based in Berlin with over 8 years of experience working with students of all ages. I started playing guitar when I was young, fell in love with jazz and improvisation, and eventually turned my passion into a career helping others discover theirs.",
+    "p2": "Whether your child is picking up a guitar for the first time or you're an adult looking to finally learn that song you've always loved, I create lessons around what excites you. No rigid textbooks. No boring exercises. Just real music, real progress, and a lot of fun along the way.",
+    "cta": "Book Free Meeting"
+  },
+  "forKidsPreview": {
+    "badge": "For Kids & Parents",
+    "heading": "Guitar Lessons Your Kids Will Actually Love",
+    "desc": "Structured, age-appropriate lessons that build confidence and creativity. From age 5 to 18, every student gets a personalized path that makes practice feel like play.",
+    "bullets": [
+      "Play-based learning for young beginners (ages 5-8)",
+      "Real songs they love — not boring exercises",
+      "Stage confidence through gentle performance practice"
+    ],
+    "learnMore": "Learn More About Kids Lessons",
+    "viewPricing": "View Pricing"
+  },
+  "testimonials": {
+    "label": "What Students & Parents Say",
+    "heading": "Real Stories, Real Progress",
+    "items": [
+      {
+        "quote": "Lucas has a gift for making guitar feel accessible. My son went from zero to playing his favorite songs in just a few months.",
+        "author": "Thomas H.",
+        "detail": "Parent of 10-year-old student"
+      },
+      {
+        "quote": "The best guitar teacher in Berlin. His lessons are structured but never rigid — I always leave feeling inspired.",
+        "author": "Andrea W.",
+        "detail": "Adult student, 2 years"
+      },
+      {
+        "quote": "My daughter was shy about performing. After 6 months with Lucas, she played at her school concert. We couldn't be prouder.",
+        "author": "Anna R.",
+        "detail": "Parent of 12-year-old student"
+      }
+    ]
+  },
+  "finalCTA": {
+    "label": "Ready to Start?",
+    "heading": "Your Musical Journey Begins With a Conversation",
+    "desc": "Book a free, no-pressure meeting to discuss your goals. Whether it's for you or your child, let's find the right path together.",
+    "cta": "Book Free Meeting",
+    "viewPricing": "View Pricing"
+  },
+  "footer": {
+    "tagline": "Personalized guitar lessons for kids and adults in Berlin.",
+    "navigate": "Navigate",
+    "navLinks": ["Home", "How I Teach", "Pricing", "Contact"],
+    "learnMore": "Learn More",
+    "aboutLink": "About",
+    "testimonialsLink": "Testimonials",
+    "connect": "Connect",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "privacy": "Privacy Policy",
+    "impressum": "Impressum",
+    "copyright": "© 2026 Lucas Terhaar Guitar. All rights reserved.",
+    "copyrightShort": "© 2026 Lucas Terhaar Guitar."
+  },
+  "cookie": {
+    "message": "This website uses cookies to ensure you get the best experience.",
+    "privacy": "Privacy Policy",
+    "decline": "Decline",
+    "accept": "Accept"
+  },
+  "howITeach": {
+    "hero": {
+      "label": "How I Teach",
+      "heading": "Every Student Gets Their Own Path",
+      "desc": "No cookie-cutter lessons. Whether you're 5 or 55, I adapt to your goals, your pace, and the music you love.",
+      "cta": "Book Free Meeting"
+    },
+    "philosophy": {
+      "label": "My Philosophy",
+      "heading": "Four Pillars of Better Learning",
+      "pillars": [
+        { "title": "Student-Led Learning", "desc": "Your interests drive the lesson plan. We start with what excites you and build from there." },
+        { "title": "Real Music From Day One", "desc": "No months of scales before you play a song. You'll be making music from the very first lesson." },
+        { "title": "Small Wins Build Confidence", "desc": "Achievable goals every week. The more you succeed, the more you want to practice." },
+        { "title": "Learn By Doing", "desc": "Less theory lectures, more hands-on playing. The best way to learn guitar is to play guitar." }
+      ]
+    },
+    "ageGroups": {
+      "label": "For Every Age",
+      "heading": "Teaching That Adapts to Your Stage",
+      "groups": [
+        { "range": "Ages 5-8", "title": "Little Musicians", "desc": "Play-based exploration. Short exercises, fun songs, and building coordination through games." },
+        { "range": "Ages 9-12", "title": "Foundation Builders", "desc": "Structure meets fun. Chords, reading basics, real songs, and building a practice routine." },
+        { "range": "Ages 13-18", "title": "Young Artists", "desc": "Self-expression and style. Improvisation, songwriting, band skills, and performance prep." },
+        { "range": "All Ages", "title": "Adult Learners", "desc": "It's never too late. Whether you're a total beginner or picking it back up, we go at your pace." }
+      ]
+    },
+    "genres": {
+      "label": "Genres",
+      "heading": "Learn the Music You Love"
+    },
+    "lessonStructure": {
+      "label": "Lesson Structure",
+      "heading": "What a Typical Lesson Looks Like",
+      "steps": [
+        { "time": "5 min", "title": "Warm Up", "desc": "Quick exercises to loosen fingers and get in the zone." },
+        { "time": "10 min", "title": "Technique Focus", "desc": "Targeted practice on a specific skill — chords, scales, picking." },
+        { "time": "15 min", "title": "Song Work", "desc": "Learn and practice a song you chose. This is the fun part." },
+        { "time": "10 min", "title": "Creative Play", "desc": "Improvisation, jam along, or explore something new." },
+        { "time": "5 min", "title": "Review & Goals", "desc": "What we accomplished, what to practice, and goals for next time." }
+      ]
+    },
+    "parentTestimonials": {
+      "label": "From Parents",
+      "heading": "What Parents Are Saying",
+      "items": [
+        {
+          "quote": "My daughter was nervous about starting. After the first lesson with Lucas, she couldn't stop talking about it. Now she practices every day without me asking.",
+          "author": "Maria S.",
+          "detail": "Mother of 8-year-old student"
+        },
+        {
+          "quote": "We tried two other teachers before Lucas. The difference is night and day. He actually listens to what the kids want to play.",
+          "author": "Jens & Katrin W.",
+          "detail": "Parents of 11-year-old student"
+        },
+        {
+          "quote": "My son played at his school concert after 4 months of lessons. I cried. Lucas gave him the confidence to get on that stage.",
+          "author": "Christina L.",
+          "detail": "Mother of 13-year-old student"
+        }
+      ]
+    },
+    "faq": {
+      "label": "Practical Info",
+      "heading": "Everything Parents Need to Know",
+      "items": [
+        { "q": "How long are lessons?", "a": "Lessons are available in 30, 45, and 60 minutes. I recommend 30 or 45 minutes for most students. 60-minute sessions are also available on request." },
+        { "q": "Does my child need their own guitar?", "a": "Not for the first lesson — I have instruments available. For regular lessons, I recommend getting a guitar. I can help you choose the right one for your child's age and size." },
+        { "q": "How much practice is expected?", "a": "Ages 5-8: Just play for fun! Ages 9-12: 10-15 minutes daily. Ages 13-18: 20-30 minutes daily. Adults: whatever fits your schedule. Practice should feel like play, not a chore." },
+        { "q": "What's the cancellation policy?", "a": "72+ hours before your lesson: free cancellation. Less than 48 hours notice: 50% charge. Less than 24 hours notice: full charge." },
+        { "q": "Can parents sit in on lessons?", "a": "For children ages 5-8, parents may sit in for the first 3 lessons. After that, the child attends independently. We'll figure out what works." }
+      ]
+    },
+    "cta": {
+      "heading": "Let's Find the Right Path for You",
+      "desc": "Book a free, no-pressure meeting. We'll talk about what you want to learn and I'll create a plan just for you.",
+      "cta": "Book Free Meeting",
+      "viewPricing": "View Pricing"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "label": "Pricing",
+      "heading": "Invest in Your Musical Future",
+      "desc": "Transparent pricing with no hidden fees. Every lesson is personalized, every session is progress."
+    },
+    "valueGrid": {
+      "items": [
+        { "title": "Personalized Lesson Plan", "desc": "Every lesson built around your goals, not a generic curriculum." },
+        { "title": "Technique + Theory + Songs", "desc": "A balanced approach that covers everything you need." },
+        { "title": "Practice Guidance", "desc": "Clear direction between lessons so you always know what to work on." },
+        { "title": "Flexible Scheduling", "desc": "Book lessons when it works for you. Easy rescheduling." }
+      ]
+    },
+    "testimonialStrip": {
+      "quote": "Worth every euro. Lucas's lessons have transformed my daughter's relationship with music.",
+      "cite": "— Thomas H., parent of 10-year-old student"
+    },
+    "tables": {
+      "label": "Lesson Packages",
+      "heading": "Simple, Transparent Pricing",
+      "trial": {
+        "title": "Trial Lesson",
+        "price": "Free",
+        "duration": "30 minutes",
+        "desc": "A no-pressure introduction to see if we're a good fit.",
+        "features": ["Meet Lucas", "Try your first exercises", "Discuss your goals", "No commitment"],
+        "cta": "Book Trial"
+      },
+      "single": {
+        "badge": "Most Popular",
+        "title": "Single Lesson",
+        "prices": [
+          { "amount": "25€", "per": "/ 30 min" },
+          { "amount": "40€", "per": "/ 45 min" },
+          { "amount": "50€", "per": "/ 60 min" }
+        ],
+        "desc": "Flexible, pay-as-you-go lessons with full personalization.",
+        "features": ["Personalized lesson plan", "Technique + theory + songs", "Practice guidance included", "Flexible scheduling"],
+        "cta": "Book Free Meeting"
+      },
+      "package": {
+        "badge": "Best Value",
+        "title": "10-Lesson Package",
+        "price": "Save 10-15%",
+        "duration": "45 or 60 min sessions",
+        "desc": "Commit to progress with a discounted package.",
+        "features": ["Everything in Single Lesson", "10-15% savings", "Priority scheduling", "Progress tracking"],
+        "cta": "Book Free Meeting",
+        "savings": "Save up to 80€"
+      }
+    },
+    "comparison": {
+      "label": "Compare",
+      "heading": "Which Option Is Right for You?",
+      "headers": ["Feature", "Trial", "Single", "10-Pack"],
+      "rows": [
+        { "feature": "Duration", "trial": "30 min", "single": "45 or 60 min", "pack": "45 or 60 min" },
+        { "feature": "Personalized plan", "trial": "Basic", "single": "Full", "pack": "Full" },
+        { "feature": "Song choice", "trial": "Teacher picks", "single": "You choose", "pack": "You choose" },
+        { "feature": "Practice guidance", "trial": "—", "single": "Included", "pack": "Included" },
+        { "feature": "Priority scheduling", "trial": "—", "single": "—", "pack": "Yes" },
+        { "feature": "Savings", "trial": "—", "single": "—", "pack": "10-15% off" },
+        { "feature": "Commitment", "trial": "None", "single": "None", "pack": "10 sessions" }
+      ]
+    },
+    "faq": {
+      "label": "FAQ",
+      "heading": "Common Questions About Pricing",
+      "items": [
+        { "q": "What payment methods do you accept?", "a": "Bank transfer, PayPal, and cash. Payment is due before each lesson or at the start of a package." },
+        { "q": "Can I switch between 45 and 60 minute lessons?", "a": "Absolutely. You can choose your session length each time you book. Many students start with 45 and move to 60 as they get more into it." },
+        { "q": "What happens if I need to cancel?", "a": "72+ hours before your lesson: free cancellation. Less than 48 hours notice: 50% charge. Less than 24 hours notice: full charge." },
+        { "q": "Do packages expire?", "a": "10-lesson packages are valid for 4 months from purchase. This gives you plenty of flexibility while maintaining momentum." },
+        { "q": "Is the trial lesson really free?", "a": "Yes! It's a free, no-pressure get-to-know-each-other session. We'll talk about your goals and see if we're a good fit." },
+        { "q": "Do you offer discounts for siblings?", "a": "Yes — if two or more siblings take lessons, I offer a 10% family discount on all sessions." }
+      ]
+    },
+    "cta": {
+      "heading": "Not Sure Yet? Let's Talk.",
+      "desc": "Book a free meeting — no commitment, no pressure. Just a conversation about your musical goals.",
+      "cta": "Book Free Meeting"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Contact",
+      "heading": "Let's Start a Conversation",
+      "desc": "Tell us a bit about yourself and we'll get back to you within 24 hours with a personalized plan."
+    },
+    "wizard": {
+      "back": "Back",
+      "stepOf": "Step {step} of {total}",
+      "next": "Next",
+      "step1": {
+        "title": "Who are the lessons for?",
+        "child": "For a Child",
+        "childSub": "Ages 5-18",
+        "adult": "For Myself",
+        "adultSub": "Adult learner"
+      },
+      "step2": {
+        "title": "How old is the student?",
+        "options": [
+          { "label": "5-8 years", "desc": "Little Musicians — play-based learning" },
+          { "label": "9-12 years", "desc": "Foundation Builders — structure + fun" },
+          { "label": "13-18 years", "desc": "Young Artists — style & self-expression" },
+          { "label": "Adult (18+)", "desc": "It's never too late to start or improve" }
+        ]
+      },
+      "step3": {
+        "title": "What's the experience level?",
+        "options": [
+          { "label": "Complete Beginner", "desc": "Never played before" },
+          { "label": "Some Experience", "desc": "Knows a few chords or songs" },
+          { "label": "Intermediate+", "desc": "Plays regularly, wants to improve" }
+        ]
+      },
+      "step4": {
+        "title": "Which instruments are you interested in?",
+        "subtitle": "Select all that apply",
+        "instruments": ["Electric Guitar", "Acoustic Guitar", "Bass Guitar", "Ukulele"]
+      },
+      "step5": {
+        "title": "What kind of music do you want to play?",
+        "subtitle": "Select your favorites",
+        "genres": ["Rock", "Pop", "Blues", "Jazz", "Funk", "R&B", "Classical", "Fingerstyle", "Gypsy Jazz", "Improvisation", "Songwriting", "Not sure yet"]
+      },
+      "step6": {
+        "title": "Almost there! A few final details.",
+        "availDays": "When are you usually available?",
+        "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "prefTime": "Preferred time of day?",
+        "times": ["Morning (9-12)", "Afternoon (12-17)", "Evening (17-20)", "Flexible"],
+        "name": "NAME",
+        "namePlaceholder": "Your name",
+        "email": "EMAIL",
+        "emailPlaceholder": "your@email.com",
+        "phone": "PHONE (Optional)",
+        "phonePlaceholder": "+49 XXX XXXXXXX",
+        "messageLbl": "MESSAGE (Optional)",
+        "messagePlaceholder": "Anything else you'd like Lucas to know?",
+        "submit": "Send to Lucas"
+      },
+      "success": {
+        "heading": "Message Sent!",
+        "desc": "Lucas will get back to you within 24 hours with a personalized lesson plan.",
+        "backHome": "Back to Home"
+      }
+    },
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone / WhatsApp",
+      "locationLabel": "Location",
+      "locationCity": "Berlin, Germany",
+      "locationDesc": "Teaching across Berlin — home visits and studio sessions available.",
+      "replyTime": "I reply within 24 hours"
+    },
+    "cta": {
+      "heading": "Ready to Get Started?",
+      "desc": "The first step is always a conversation.",
+      "cta": "Book Free Meeting"
+    }
+  },
+  "forKids": {
+    "hero": {
+      "label": "For Kids & Parents",
+      "heading": "Guitar Lessons Your Kids Will Love",
+      "desc": "Parent-friendly lessons designed for ages 5-18. Structured, encouraging, and built around what your child enjoys.",
+      "cta": "Book Free Meeting"
+    },
+    "whyMusic": {
+      "label": "Why Music",
+      "heading": "More Than Just an Instrument",
+      "desc": "Learning guitar builds skills that go far beyond music.",
+      "benefits": [
+        { "title": "Focus & Discipline", "desc": "Regular practice builds concentration and self-discipline — skills that translate to school and life." },
+        { "title": "Confidence", "desc": "Performing, even just for family, teaches kids they can do hard things. That belief carries them far." },
+        { "title": "Creativity", "desc": "Music is one of the best outlets for creative expression. It gives kids a voice beyond words." },
+        { "title": "A Lifelong Skill", "desc": "Unlike most hobbies, guitar stays with you forever. It's a gift they'll keep long after childhood." }
+      ]
+    },
+    "ageGroups": {
+      "label": "Age Groups",
+      "heading": "Every Age Has Its Own Path",
+      "groups": [
+        {
+          "range": "Ages 5-8",
+          "title": "Little Musicians",
+          "desc": "Play-based learning with short, focused exercises. We use games, simple songs, and lots of encouragement. Sessions are 30 minutes to match attention spans. Parents can sit in.",
+          "bullets": [
+            "First songs in the first lesson",
+            "Fun rhythm games and coordination exercises",
+            "No pressure, no homework — just musical play",
+            "30-minute sessions recommended"
+          ]
+        },
+        {
+          "range": "Ages 9-12",
+          "title": "Foundation Builders",
+          "desc": "This is where real progress happens. Students learn proper technique, basic theory, and start playing the songs they love. We introduce a light practice routine and set weekly goals.",
+          "bullets": [
+            "Chords, scales, and reading basics",
+            "Songs they actually want to play",
+            "Building a practice habit (10-15 min/day)",
+            "45-minute sessions recommended"
+          ]
+        },
+        {
+          "range": "Ages 13-18",
+          "title": "Young Artists",
+          "desc": "Teens want independence and self-expression. We dive into style, improvisation, and performance skills. Whether they're in a school band or learning for fun, lessons adapt to their goals.",
+          "bullets": [
+            "Genre specialization and personal style",
+            "Improvisation and songwriting",
+            "Band skills and ensemble playing",
+            "45 or 60-minute sessions"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "label": "Curriculum",
+      "heading": "What Your Child Will Learn",
+      "skills": [
+        { "title": "Proper Technique", "desc": "Correct posture, hand position, and picking — building good habits from day one." },
+        { "title": "Reading Basics", "desc": "Tabs, chord diagrams, and basic notation — enough to learn any song independently." },
+        { "title": "Real Songs", "desc": "Songs they choose and love. This is what keeps kids motivated to practice." },
+        { "title": "Rhythm & Timing", "desc": "Strumming patterns, counting, and playing in time — the foundation of good music." },
+        { "title": "Music Theory", "desc": "Age-appropriate theory that makes sense. Not boring worksheets — practical understanding." },
+        { "title": "Stage Confidence", "desc": "Gentle performance practice. From playing for family to school concerts." }
+      ]
+    },
+    "firstLesson": {
+      "label": "First Lesson",
+      "heading": "What to Expect on Day One",
+      "desc": "No pressure, no tests, just music.",
+      "steps": [
+        { "title": "Meet Lucas", "desc": "A friendly introduction. We talk about what your child likes, their experience, and what they want to learn." },
+        { "title": "Try the Guitar", "desc": "Your child picks up the guitar (I have instruments if needed). We explore sounds, strings, and what feels comfortable." },
+        { "title": "Play a Simple Tune", "desc": "By the end of the first lesson, most kids play a recognizable melody. This is the 'aha' moment." },
+        { "title": "Set Goals Together", "desc": "We discuss a fun plan for the coming weeks. Parents get a clear picture of what to expect." }
+      ]
+    },
+    "parentTestimonials": {
+      "label": "From Parents",
+      "heading": "What Parents Are Saying",
+      "items": [
+        {
+          "quote": "My daughter was nervous about starting. After the first lesson with Lucas, she couldn't stop talking about it. Now she practices every day without me asking.",
+          "author": "Maria S.",
+          "detail": "Mother of 8-year-old student"
+        },
+        {
+          "quote": "We tried two other teachers before Lucas. The difference is night and day. He actually listens to what the kids want to play.",
+          "author": "Jens & Katrin W.",
+          "detail": "Parents of 11-year-old student"
+        },
+        {
+          "quote": "My son played at his school concert after 4 months of lessons. I cried. Lucas gave him the confidence to get on that stage.",
+          "author": "Christina L.",
+          "detail": "Mother of 13-year-old student"
+        }
+      ]
+    },
+    "faq": {
+      "label": "Practical Info",
+      "heading": "Everything Parents Need to Know",
+      "items": [
+        { "q": "How long are lessons?", "a": "Lessons are available in 30, 45, and 60 minutes. I recommend 30 or 45 minutes for most students. 60-minute sessions are also available on request." },
+        { "q": "Does my child need their own guitar?", "a": "Not for the first lesson — I have instruments available. For regular lessons, I recommend getting a guitar. I can help you choose the right one for your child's age and size." },
+        { "q": "How much practice is expected?", "a": "Ages 5-8: Just play for fun! Ages 9-12: 10-15 minutes daily. Ages 13-18: 20-30 minutes daily. But there's no homework — practice should feel like play, not a chore." },
+        { "q": "What's the cancellation policy?", "a": "72+ hours before your lesson: free cancellation. Less than 48 hours notice: 50% charge. Less than 24 hours notice: full charge." },
+        { "q": "Can I sit in on lessons?", "a": "For children ages 5-8, parents may sit in for the first 3 lessons. After that, the child attends independently. We'll figure out what works." }
+      ]
+    },
+    "cta": {
+      "heading": "Let's Find the Right Path for Your Child",
+      "desc": "Book a free meeting to discuss your child's interests and goals. No commitment, just a friendly conversation.",
+      "cta": "Book Free Meeting",
+      "viewPricing": "View Pricing"
+    }
+  },
+  "teachingMethod": {
+    "hero": {
+      "label": "Teaching Method",
+      "heading": "How I Teach",
+      "desc": "Every student is different. My approach adapts to your goals, your pace, and the music you love. No cookie-cutter lessons — just a path that works for you.",
+      "cta": "Book Free Meeting"
+    },
+    "philosophy": {
+      "label": "My Philosophy",
+      "heading": "Four Pillars of Better Learning",
+      "pillars": [
+        { "title": "Student-Led Learning", "desc": "Your interests drive the lesson plan. We start with what excites you and build from there." },
+        { "title": "Real Music From Day One", "desc": "No months of scales before you play a song. You'll be making music from the very first lesson." },
+        { "title": "Small Wins Build Confidence", "desc": "Achievable goals every week. The more you succeed, the more you want to practice." },
+        { "title": "Learn By Doing", "desc": "Less theory lectures, more hands-on playing. The best way to learn guitar is to play guitar." }
+      ]
+    },
+    "ageGroups": {
+      "label": "For Every Age",
+      "heading": "Teaching That Adapts to Your Stage",
+      "groups": [
+        { "range": "Ages 5-8", "title": "Little Musicians", "desc": "Play-based exploration. Short exercises, fun songs, building coordination and confidence through games." },
+        { "range": "Ages 9-12", "title": "Foundation Builders", "desc": "Structure meets fun. Learning chords, reading basics, playing real songs, building a practice routine." },
+        { "range": "Ages 13-18", "title": "Young Artists", "desc": "Self-expression and style. Band skills, improvisation, songwriting, preparing for performances." },
+        { "range": "All Ages", "title": "Adult Learners", "desc": "It's never too late. Whether you're a total beginner or picking it back up, we go at your pace." }
+      ]
+    },
+    "instruments": {
+      "label": "Instruments",
+      "heading": "Find Your Sound",
+      "items": [
+        { "title": "Electric Guitar", "desc": "From classic rock to jazz fusion — explore distortion, effects, and techniques that define your sound." },
+        { "title": "Acoustic Guitar", "desc": "Fingerpicking, strumming, and songwriting. The most versatile instrument and the foundation of it all." },
+        { "title": "Bass Guitar", "desc": "The backbone of every band. Learn groove, rhythm, slap technique, and how to hold everything together." },
+        { "title": "Ukulele", "desc": "Fun, portable, and the perfect entry point. Great for young beginners and anyone who wants to play quickly." }
+      ]
+    },
+    "genres": {
+      "label": "Genres",
+      "heading": "Learn the Music You Love"
+    },
+    "lessonStructure": {
+      "label": "Lesson Structure",
+      "heading": "What a Typical Lesson Looks Like",
+      "steps": [
+        { "time": "5 min", "title": "Warm Up", "desc": "Quick exercises to loosen fingers and get in the zone." },
+        { "time": "10 min", "title": "Technique Focus", "desc": "Targeted practice on a specific skill — chords, scales, picking." },
+        { "time": "15 min", "title": "Song Work", "desc": "Learn and practice a song you chose. This is the fun part." },
+        { "time": "10 min", "title": "Creative Play", "desc": "Improvisation, jam along, or explore something new." },
+        { "time": "5 min", "title": "Review & Goals", "desc": "What we accomplished, what to practice, and goals for next time." }
+      ]
+    },
+    "results": {
+      "label": "Results",
+      "heading": "Where My Students End Up",
+      "items": [
+        { "metric": "Week 1", "title": "First Song", "desc": "Most students play a recognizable song in their very first lesson. That spark keeps them coming back." },
+        { "metric": "6 Months", "title": "First Performance", "desc": "From shy beginner to confident performer. Many students play at school events or family gatherings." },
+        { "metric": "67 Years Old", "title": "Oldest Beginner", "desc": "It's never too late. My oldest student started from zero and now plays jazz standards at home." }
+      ]
+    },
+    "cta": {
+      "heading": "Let's Discuss Your Musical Goals",
+      "desc": "Book a free, no-pressure meeting. We'll talk about what you want to learn and I'll create a plan just for you.",
+      "cta": "Book Free Meeting",
+      "viewPricing": "View Pricing"
+    }
+  },
+  "notFound": {
+    "heading": "This Chord Doesn't Exist",
+    "desc": "Looks like you've strummed a wrong note. The page you're looking for isn't here — but the music is just a click away.",
+    "backHome": "Back to Home",
+    "viewLessons": "View Lessons",
+    "contactLucas": "Contact Lucas"
+  },
+  "genres": ["Jazz", "Rock", "Blues", "Funk", "R&B", "Pop", "Classical", "Fingerstyle", "Improvisation", "Songwriting"]
+}

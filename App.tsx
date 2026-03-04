@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { LanguageProvider } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -53,10 +54,12 @@ const AppContent = () => {
 
 function App() {
   return (
-    <HashRouter>
-      <ScrollToTop />
-      <AppContent />
-    </HashRouter>
+    <LanguageProvider>
+      <HashRouter>
+        <ScrollToTop />
+        <AppContent />
+      </HashRouter>
+    </LanguageProvider>
   );
 }
 

@@ -1,0 +1,534 @@
+{
+  "nav": {
+    "howITeach": "Mein Unterricht",
+    "pricing": "Preise",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "bookFree": "Kostenloses Gespräch"
+  },
+  "hero": {
+    "label": "Gitarrenunterricht in Berlin",
+    "heading": "Dein Sound, <br/> Dein Weg",
+    "desc": "Individueller Gitarrenunterricht für Kinder und Erwachsene. Lerne die Musik, die du liebst — mit einer Methode, die wirklich funktioniert.",
+    "cta": "Kostenloses Gespräch",
+    "viewPricing": "Preise ansehen"
+  },
+  "trustBar": {
+    "stats": [
+      { "value": "8+", "label": "Jahre Erfahrung" },
+      { "value": "200+", "label": "Schüler unterrichtet" },
+      { "value": "Viele", "label": "Stile & Genres" },
+      { "value": "Berlin", "label": "Standort & Unterricht" }
+    ]
+  },
+  "about": {
+    "label": "Dein Lehrer",
+    "heading": "Ich glaube, jeder Schüler hat eine eigene musikalische Stimme",
+    "p1": "Hi, ich bin Lucas — Gitarrenlehrer in Berlin mit über 8 Jahren Erfahrung mit Schülern jeden Alters. Ich habe als Kind angefangen Gitarre zu spielen, mich in Jazz und Improvisation verliebt und schließlich meine Leidenschaft zum Beruf gemacht, um anderen zu helfen, ihre eigene zu entdecken.",
+    "p2": "Ob dein Kind zum ersten Mal eine Gitarre in die Hand nimmt oder du als Erwachsener endlich das Lied lernen willst, das du schon immer spielen wolltest — ich gestalte den Unterricht rund um das, was dich begeistert. Keine starren Lehrbücher. Keine langweiligen Übungen. Einfach echte Musik, echte Fortschritte und jede Menge Spaß.",
+    "cta": "Kostenloses Gespräch"
+  },
+  "forKidsPreview": {
+    "badge": "Für Kinder & Eltern",
+    "heading": "Gitarrenunterricht, den deine Kinder wirklich lieben werden",
+    "desc": "Strukturierter, altersgerechter Unterricht, der Selbstvertrauen und Kreativität aufbaut. Von 5 bis 18 Jahren bekommt jeder Schüler einen individuellen Weg, der Üben wie Spielen anfühlen lässt.",
+    "bullets": [
+      "Spielerisches Lernen für junge Anfänger (5-8 Jahre)",
+      "Echte Songs, die sie lieben — keine langweiligen Übungen",
+      "Bühnensicherheit durch sanftes Auftrittstraining"
+    ],
+    "learnMore": "Mehr über Kinderunterricht",
+    "viewPricing": "Preise ansehen"
+  },
+  "testimonials": {
+    "label": "Was Schüler & Eltern sagen",
+    "heading": "Echte Geschichten, echte Fortschritte",
+    "items": [
+      {
+        "quote": "Lucas hat ein Talent dafür, Gitarre zugänglich zu machen. Mein Sohn ging von null auf seine Lieblingssongs in nur wenigen Monaten.",
+        "author": "Thomas H.",
+        "detail": "Vater eines 10-jährigen Schülers"
+      },
+      {
+        "quote": "Der beste Gitarrenlehrer in Berlin. Sein Unterricht ist strukturiert, aber nie starr — ich gehe immer inspiriert nach Hause.",
+        "author": "Andrea W.",
+        "detail": "Erwachsene Schülerin, 2 Jahre"
+      },
+      {
+        "quote": "Meine Tochter war schüchtern beim Auftreten. Nach 6 Monaten mit Lucas hat sie beim Schulkonzert gespielt. Wir waren so stolz.",
+        "author": "Anna R.",
+        "detail": "Mutter einer 12-jährigen Schülerin"
+      }
+    ]
+  },
+  "finalCTA": {
+    "label": "Bereit anzufangen?",
+    "heading": "Deine musikalische Reise beginnt mit einem Gespräch",
+    "desc": "Buche ein kostenloses, unverbindliches Gespräch über deine Ziele. Ob für dich oder dein Kind — lass uns gemeinsam den richtigen Weg finden.",
+    "cta": "Kostenloses Gespräch",
+    "viewPricing": "Preise ansehen"
+  },
+  "footer": {
+    "tagline": "Individueller Gitarrenunterricht für Kinder und Erwachsene in Berlin.",
+    "navigate": "Navigation",
+    "navLinks": ["Startseite", "Mein Unterricht", "Preise", "Kontakt"],
+    "learnMore": "Mehr erfahren",
+    "aboutLink": "Über mich",
+    "testimonialsLink": "Erfahrungen",
+    "connect": "Kontakt",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "email": "E-Mail",
+    "whatsapp": "WhatsApp",
+    "privacy": "Datenschutz",
+    "impressum": "Impressum",
+    "copyright": "© 2026 Lucas Terhaar Guitar. Alle Rechte vorbehalten.",
+    "copyrightShort": "© 2026 Lucas Terhaar Guitar."
+  },
+  "cookie": {
+    "message": "Diese Website verwendet Cookies, um die bestmögliche Erfahrung zu gewährleisten.",
+    "privacy": "Datenschutz",
+    "decline": "Ablehnen",
+    "accept": "Akzeptieren"
+  },
+  "howITeach": {
+    "hero": {
+      "label": "Mein Unterricht",
+      "heading": "Jeder Schüler bekommt seinen eigenen Weg",
+      "desc": "Kein Unterricht von der Stange. Ob du 5 oder 55 bist — ich passe mich deinen Zielen, deinem Tempo und der Musik an, die du liebst.",
+      "cta": "Kostenloses Gespräch"
+    },
+    "philosophy": {
+      "label": "Meine Philosophie",
+      "heading": "Vier Säulen für besseres Lernen",
+      "pillars": [
+        { "title": "Schülergeführtes Lernen", "desc": "Deine Interessen bestimmen den Unterrichtsplan. Wir starten mit dem, was dich begeistert." },
+        { "title": "Echte Musik ab Tag eins", "desc": "Keine monatelangen Tonleitern vor dem ersten Song. Du machst von der ersten Stunde an Musik." },
+        { "title": "Kleine Erfolge schaffen Selbstvertrauen", "desc": "Erreichbare Ziele jede Woche. Je mehr du schaffst, desto mehr willst du üben." },
+        { "title": "Lernen durch Spielen", "desc": "Weniger Theorie-Vorträge, mehr praktisches Spielen. Der beste Weg, Gitarre zu lernen, ist Gitarre zu spielen." }
+      ]
+    },
+    "ageGroups": {
+      "label": "Für jedes Alter",
+      "heading": "Unterricht, der sich an deine Stufe anpasst",
+      "groups": [
+        { "range": "5-8 Jahre", "title": "Kleine Musiker", "desc": "Spielerisches Entdecken. Kurze Übungen, lustige Songs und Koordination durch Spiele." },
+        { "range": "9-12 Jahre", "title": "Grundlagen-Bauer", "desc": "Struktur trifft Spaß. Akkorde, Lesebasics, echte Songs und eine Übungsroutine aufbauen." },
+        { "range": "13-18 Jahre", "title": "Junge Künstler", "desc": "Selbstausdruck und Stil. Improvisation, Songwriting, Bandskills und Auftrittsvorbereitung." },
+        { "range": "Alle Alter", "title": "Erwachsene Lerner", "desc": "Es ist nie zu spät. Ob kompletter Anfänger oder Wiedereinsteiger — wir gehen in deinem Tempo." }
+      ]
+    },
+    "genres": {
+      "label": "Genres",
+      "heading": "Lerne die Musik, die du liebst"
+    },
+    "lessonStructure": {
+      "label": "Unterrichtsaufbau",
+      "heading": "So sieht eine typische Stunde aus",
+      "steps": [
+        { "time": "5 Min", "title": "Aufwärmen", "desc": "Schnelle Übungen zum Lockern der Finger und Einstimmen." },
+        { "time": "10 Min", "title": "Technik-Fokus", "desc": "Gezieltes Üben einer bestimmten Fähigkeit — Akkorde, Tonleitern, Picking." },
+        { "time": "15 Min", "title": "Song-Arbeit", "desc": "Einen Song lernen und üben, den du gewählt hast. Das ist der spaßige Teil." },
+        { "time": "10 Min", "title": "Kreatives Spielen", "desc": "Improvisation, gemeinsam jammen oder etwas Neues entdecken." },
+        { "time": "5 Min", "title": "Rückblick & Ziele", "desc": "Was wir geschafft haben, was du üben sollst und Ziele für nächstes Mal." }
+      ]
+    },
+    "parentTestimonials": {
+      "label": "Von Eltern",
+      "heading": "Was Eltern sagen",
+      "items": [
+        {
+          "quote": "Meine Tochter war nervös am Anfang. Nach der ersten Stunde mit Lucas konnte sie nicht aufhören, davon zu erzählen. Jetzt übt sie jeden Tag, ohne dass ich sie bitten muss.",
+          "author": "Maria S.",
+          "detail": "Mutter einer 8-jährigen Schülerin"
+        },
+        {
+          "quote": "Wir haben zwei andere Lehrer vor Lucas ausprobiert. Der Unterschied ist wie Tag und Nacht. Er hört wirklich zu, was die Kinder spielen wollen.",
+          "author": "Jens & Katrin W.",
+          "detail": "Eltern eines 11-jährigen Schülers"
+        },
+        {
+          "quote": "Mein Sohn hat nach 4 Monaten Unterricht beim Schulkonzert gespielt. Ich habe geweint. Lucas hat ihm das Selbstvertrauen gegeben, auf die Bühne zu gehen.",
+          "author": "Christina L.",
+          "detail": "Mutter eines 13-jährigen Schülers"
+        }
+      ]
+    },
+    "faq": {
+      "label": "Praktische Infos",
+      "heading": "Alles, was Eltern wissen müssen",
+      "items": [
+        { "q": "Wie lang sind die Stunden?", "a": "Stunden sind in 30, 45 und 60 Minuten verfügbar. Ich empfehle 30 oder 45 Minuten für die meisten Schüler. 60-Minuten-Stunden sind auf Anfrage ebenfalls möglich." },
+        { "q": "Braucht mein Kind eine eigene Gitarre?", "a": "Nicht für die erste Stunde — ich habe Instrumente da. Für regelmäßigen Unterricht empfehle ich, eine Gitarre anzuschaffen. Ich helfe gerne bei der Auswahl der richtigen Größe." },
+        { "q": "Wie viel Übung wird erwartet?", "a": "5-8 Jahre: Einfach zum Spaß spielen! 9-12 Jahre: 10-15 Minuten täglich. 13-18 Jahre: 20-30 Minuten täglich. Erwachsene: was in den Zeitplan passt. Üben soll sich wie Spielen anfühlen, nicht wie Pflicht." },
+        { "q": "Wie ist die Stornierungsregelung?", "a": "72+ Stunden vor der Stunde: kostenlose Stornierung. Weniger als 48 Stunden: 50% Gebühr. Weniger als 24 Stunden: volle Gebühr." },
+        { "q": "Können Eltern beim Unterricht dabei sein?", "a": "Für Kinder im Alter von 5-8 Jahren können Eltern die ersten 3 Stunden dabei sein. Danach nimmt das Kind alleine teil. Wir finden heraus, was am besten funktioniert." }
+      ]
+    },
+    "cta": {
+      "heading": "Lass uns den richtigen Weg für dich finden",
+      "desc": "Buche ein kostenloses, unverbindliches Gespräch. Wir reden darüber, was du lernen möchtest, und ich erstelle einen Plan nur für dich.",
+      "cta": "Kostenloses Gespräch",
+      "viewPricing": "Preise ansehen"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "label": "Preise",
+      "heading": "Investiere in deine musikalische Zukunft",
+      "desc": "Transparente Preise ohne versteckte Kosten. Jede Stunde ist individuell, jede Einheit ist Fortschritt."
+    },
+    "valueGrid": {
+      "items": [
+        { "title": "Individueller Unterrichtsplan", "desc": "Jede Stunde ist auf deine Ziele zugeschnitten, nicht auf ein generisches Curriculum." },
+        { "title": "Technik + Theorie + Songs", "desc": "Ein ausgewogener Ansatz, der alles abdeckt, was du brauchst." },
+        { "title": "Übungsanleitung", "desc": "Klare Richtung zwischen den Stunden, damit du immer weißt, woran du arbeiten sollst." },
+        { "title": "Flexible Terminplanung", "desc": "Buche Stunden, wenn es dir passt. Einfache Umplanung." }
+      ]
+    },
+    "testimonialStrip": {
+      "quote": "Jeden Euro wert. Lucas' Unterricht hat die Beziehung meiner Tochter zur Musik verändert.",
+      "cite": "— Thomas H., Vater eines 10-jährigen Schülers"
+    },
+    "tables": {
+      "label": "Unterrichtspakete",
+      "heading": "Einfache, transparente Preise",
+      "trial": {
+        "title": "Probestunde",
+        "price": "Kostenlos",
+        "duration": "30 Minuten",
+        "desc": "Ein unverbindliches Kennenlernen, um zu sehen, ob wir zusammenpassen.",
+        "features": ["Lucas kennenlernen", "Erste Übungen ausprobieren", "Deine Ziele besprechen", "Keine Verpflichtung"],
+        "cta": "Probestunde buchen"
+      },
+      "single": {
+        "badge": "Am beliebtesten",
+        "title": "Einzelstunde",
+        "prices": [
+          { "amount": "25€", "per": "/ 30 Min" },
+          { "amount": "40€", "per": "/ 45 Min" },
+          { "amount": "50€", "per": "/ 60 Min" }
+        ],
+        "desc": "Flexible Einzelstunden mit voller Individualisierung.",
+        "features": ["Individueller Unterrichtsplan", "Technik + Theorie + Songs", "Übungsanleitung inklusive", "Flexible Terminplanung"],
+        "cta": "Kostenloses Gespräch"
+      },
+      "package": {
+        "badge": "Bestes Angebot",
+        "title": "10er-Paket",
+        "price": "10-15% sparen",
+        "duration": "45 oder 60 Min Stunden",
+        "desc": "Setze auf Fortschritt mit einem vergünstigten Paket.",
+        "features": ["Alles aus der Einzelstunde", "10-15% Ersparnis", "Bevorzugte Terminplanung", "Fortschrittsverfolgung"],
+        "cta": "Kostenloses Gespräch",
+        "savings": "Spare bis zu 80€"
+      }
+    },
+    "comparison": {
+      "label": "Vergleich",
+      "heading": "Welche Option passt zu dir?",
+      "headers": ["Merkmal", "Probe", "Einzel", "10er-Paket"],
+      "rows": [
+        { "feature": "Dauer", "trial": "30 Min", "single": "45 oder 60 Min", "pack": "45 oder 60 Min" },
+        { "feature": "Individueller Plan", "trial": "Basis", "single": "Voll", "pack": "Voll" },
+        { "feature": "Songauswahl", "trial": "Lehrer wählt", "single": "Du wählst", "pack": "Du wählst" },
+        { "feature": "Übungsanleitung", "trial": "—", "single": "Included", "pack": "Included" },
+        { "feature": "Bevorzugte Termine", "trial": "—", "single": "—", "pack": "Yes" },
+        { "feature": "Ersparnis", "trial": "—", "single": "—", "pack": "10-15%" },
+        { "feature": "Verpflichtung", "trial": "Keine", "single": "Keine", "pack": "10 Stunden" }
+      ]
+    },
+    "faq": {
+      "label": "FAQ",
+      "heading": "Häufige Fragen zu den Preisen",
+      "items": [
+        { "q": "Welche Zahlungsmethoden akzeptierst du?", "a": "Banküberweisung, PayPal und Bargeld. Die Zahlung erfolgt vor jeder Stunde oder zu Beginn eines Pakets." },
+        { "q": "Kann ich zwischen 45 und 60 Minuten wechseln?", "a": "Natürlich. Du kannst die Dauer bei jeder Buchung wählen. Viele Schüler starten mit 45 und wechseln zu 60, wenn sie mehr reinkommen." },
+        { "q": "Was passiert, wenn ich absagen muss?", "a": "72+ Stunden vor der Stunde: kostenlose Stornierung. Weniger als 48 Stunden: 50% Gebühr. Weniger als 24 Stunden: volle Gebühr." },
+        { "q": "Laufen Pakete ab?", "a": "10er-Pakete sind 4 Monate ab Kauf gültig. Das gibt dir genug Flexibilität und erhält gleichzeitig den Schwung." },
+        { "q": "Ist die Probestunde wirklich kostenlos?", "a": "Ja! Es ist ein kostenloses, unverbindliches Kennenlerngespräch. Wir sprechen über deine Ziele und schauen, ob wir zusammenpassen." },
+        { "q": "Gibt es Geschwisterrabatt?", "a": "Ja — wenn zwei oder mehr Geschwister Unterricht nehmen, biete ich 10% Familienrabatt auf alle Stunden." }
+      ]
+    },
+    "cta": {
+      "heading": "Noch unsicher? Lass uns reden.",
+      "desc": "Buche ein kostenloses Gespräch — keine Verpflichtung, kein Druck. Einfach ein Gespräch über deine musikalischen Ziele.",
+      "cta": "Kostenloses Gespräch"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Kontakt",
+      "heading": "Lass uns ins Gespräch kommen",
+      "desc": "Erzähl uns ein bisschen über dich und wir melden uns innerhalb von 24 Stunden mit einem individuellen Plan."
+    },
+    "wizard": {
+      "back": "Zurück",
+      "stepOf": "Schritt {step} von {total}",
+      "next": "Weiter",
+      "step1": {
+        "title": "Für wen ist der Unterricht?",
+        "child": "Für ein Kind",
+        "childSub": "5-18 Jahre",
+        "adult": "Für mich selbst",
+        "adultSub": "Erwachsener"
+      },
+      "step2": {
+        "title": "Wie alt ist der Schüler?",
+        "options": [
+          { "label": "5-8 years", "desc": "Kleine Musiker — spielerisches Lernen" },
+          { "label": "9-12 years", "desc": "Grundlagen-Bauer — Struktur + Spaß" },
+          { "label": "13-18 years", "desc": "Junge Künstler — Stil & Selbstausdruck" },
+          { "label": "Adult (18+)", "desc": "Es ist nie zu spät, anzufangen oder besser zu werden" }
+        ]
+      },
+      "step3": {
+        "title": "Wie ist das Erfahrungslevel?",
+        "options": [
+          { "label": "Complete Beginner", "desc": "Noch nie gespielt" },
+          { "label": "Some Experience", "desc": "Kennt ein paar Akkorde oder Songs" },
+          { "label": "Intermediate+", "desc": "Spielt regelmäßig, möchte sich verbessern" }
+        ]
+      },
+      "step4": {
+        "title": "Welche Instrumente interessieren dich?",
+        "subtitle": "Wähle alle, die zutreffen",
+        "instruments": ["Electric Guitar", "Acoustic Guitar", "Bass Guitar", "Ukulele"]
+      },
+      "step5": {
+        "title": "Welche Musik möchtest du spielen?",
+        "subtitle": "Wähle deine Favoriten",
+        "genres": ["Rock", "Pop", "Blues", "Jazz", "Funk", "R&B", "Classical", "Fingerstyle", "Gypsy Jazz", "Improvisation", "Songwriting", "Noch unsicher"]
+      },
+      "step6": {
+        "title": "Fast geschafft! Noch ein paar Details.",
+        "availDays": "Wann bist du normalerweise verfügbar?",
+        "days": ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
+        "prefTime": "Bevorzugte Tageszeit?",
+        "times": ["Vormittag (9-12)", "Nachmittag (12-17)", "Abend (17-20)", "Flexibel"],
+        "name": "NAME",
+        "namePlaceholder": "Dein Name",
+        "email": "E-MAIL",
+        "emailPlaceholder": "deine@email.de",
+        "phone": "TELEFON (Optional)",
+        "phonePlaceholder": "+49 XXX XXXXXXX",
+        "messageLbl": "NACHRICHT (Optional)",
+        "messagePlaceholder": "Möchtest du Lucas noch etwas mitteilen?",
+        "submit": "An Lucas senden"
+      },
+      "success": {
+        "heading": "Nachricht gesendet!",
+        "desc": "Lucas wird sich innerhalb von 24 Stunden mit einem individuellen Unterrichtsplan bei dir melden.",
+        "backHome": "Zur Startseite"
+      }
+    },
+    "info": {
+      "emailLabel": "E-Mail",
+      "phoneLabel": "Telefon / WhatsApp",
+      "locationLabel": "Standort",
+      "locationCity": "Berlin, Deutschland",
+      "locationDesc": "Unterricht in ganz Berlin — Hausbesuche und Studiotermine möglich.",
+      "replyTime": "Ich antworte innerhalb von 24 Stunden"
+    },
+    "cta": {
+      "heading": "Bereit loszulegen?",
+      "desc": "Der erste Schritt ist immer ein Gespräch.",
+      "cta": "Kostenloses Gespräch"
+    }
+  },
+  "forKids": {
+    "hero": {
+      "label": "Für Kinder & Eltern",
+      "heading": "Gitarrenunterricht, den deine Kinder lieben werden",
+      "desc": "Elternfreundlicher Unterricht für 5-18 Jahre. Strukturiert, ermutigend und aufgebaut auf dem, was dein Kind begeistert.",
+      "cta": "Kostenloses Gespräch"
+    },
+    "whyMusic": {
+      "label": "Warum Musik",
+      "heading": "Mehr als nur ein Instrument",
+      "desc": "Gitarre lernen baut Fähigkeiten auf, die weit über die Musik hinausgehen.",
+      "benefits": [
+        { "title": "Fokus & Disziplin", "desc": "Regelmäßiges Üben baut Konzentration und Selbstdisziplin auf — Fähigkeiten, die sich auf Schule und Leben übertragen." },
+        { "title": "Selbstvertrauen", "desc": "Auftreten, auch nur vor der Familie, lehrt Kinder, dass sie schwierige Dinge schaffen können. Dieser Glaube trägt sie weit." },
+        { "title": "Kreativität", "desc": "Musik ist eines der besten Ventile für kreativen Ausdruck. Sie gibt Kindern eine Stimme jenseits von Worten." },
+        { "title": "Eine lebenslange Fähigkeit", "desc": "Anders als die meisten Hobbys bleibt die Gitarre für immer. Es ist ein Geschenk, das sie lange nach der Kindheit behalten." }
+      ]
+    },
+    "ageGroups": {
+      "label": "Altersgruppen",
+      "heading": "Jedes Alter hat seinen eigenen Weg",
+      "groups": [
+        {
+          "range": "5-8 Jahre",
+          "title": "Kleine Musiker",
+          "desc": "Spielerisches Lernen mit kurzen, fokussierten Übungen. Wir nutzen Spiele, einfache Songs und viel Ermutigung. Stunden sind 30 Minuten, passend zur Aufmerksamkeitsspanne. Eltern können dabei sein.",
+          "bullets": [
+            "Erste Songs in der ersten Stunde",
+            "Lustige Rhythmusspiele und Koordinationsübungen",
+            "Kein Druck, keine Hausaufgaben — einfach musikalisches Spielen",
+            "30-Minuten-Stunden empfohlen"
+          ]
+        },
+        {
+          "range": "9-12 Jahre",
+          "title": "Grundlagen-Bauer",
+          "desc": "Hier passiert echter Fortschritt. Schüler lernen richtige Technik, Grundlagen der Theorie und beginnen, die Songs zu spielen, die sie lieben. Wir führen eine leichte Übungsroutine ein und setzen wöchentliche Ziele.",
+          "bullets": [
+            "Akkorde, Tonleitern und Lesebasics",
+            "Songs, die sie wirklich spielen wollen",
+            "Eine Übungsgewohnheit aufbauen (10-15 Min/Tag)",
+            "45-Minuten-Stunden empfohlen"
+          ]
+        },
+        {
+          "range": "13-18 Jahre",
+          "title": "Junge Künstler",
+          "desc": "Teenager wollen Unabhängigkeit und Selbstausdruck. Wir vertiefen Stil, Improvisation und Auftrittsfähigkeiten. Ob Schulband oder zum Spaß — der Unterricht passt sich ihren Zielen an.",
+          "bullets": [
+            "Genre-Spezialisierung und persönlicher Stil",
+            "Improvisation und Songwriting",
+            "Bandskills und Ensemblespiel",
+            "45 oder 60-Minuten-Stunden"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "label": "Lehrplan",
+      "heading": "Was dein Kind lernen wird",
+      "skills": [
+        { "title": "Richtige Technik", "desc": "Korrekte Haltung, Handposition und Anschlag — gute Gewohnheiten von Anfang an aufbauen." },
+        { "title": "Lesen lernen", "desc": "Tabulaturen, Akkorddiagramme und Grundnotation — genug, um jeden Song selbstständig zu lernen." },
+        { "title": "Echte Songs", "desc": "Songs, die sie selbst wählen und lieben. Das hält Kinder motiviert zum Üben." },
+        { "title": "Rhythmus & Timing", "desc": "Anschlagmuster, Zählen und im Takt spielen — das Fundament guter Musik." },
+        { "title": "Musiktheorie", "desc": "Altersgerechte Theorie, die Sinn ergibt. Keine langweiligen Arbeitsblätter — praktisches Verständnis." },
+        { "title": "Bühnensicherheit", "desc": "Sanftes Auftrittstraining. Vom Spielen für die Familie bis zum Schulkonzert." }
+      ]
+    },
+    "firstLesson": {
+      "label": "Erste Stunde",
+      "heading": "Was dich am ersten Tag erwartet",
+      "desc": "Kein Druck, keine Tests, einfach Musik.",
+      "steps": [
+        { "title": "Lucas kennenlernen", "desc": "Eine freundliche Einführung. Wir reden darüber, was dein Kind mag, seine Erfahrung und was es lernen möchte." },
+        { "title": "Gitarre ausprobieren", "desc": "Dein Kind nimmt die Gitarre in die Hand (ich habe Instrumente, falls nötig). Wir erkunden Klänge, Saiten und was sich gut anfühlt." },
+        { "title": "Eine einfache Melodie spielen", "desc": "Am Ende der ersten Stunde spielen die meisten Kinder eine erkennbare Melodie. Das ist der 'Aha'-Moment." },
+        { "title": "Gemeinsam Ziele setzen", "desc": "Wir besprechen einen spaßigen Plan für die kommenden Wochen. Eltern bekommen ein klares Bild davon, was sie erwarten können." }
+      ]
+    },
+    "parentTestimonials": {
+      "label": "Von Eltern",
+      "heading": "Was Eltern sagen",
+      "items": [
+        {
+          "quote": "Meine Tochter war nervös am Anfang. Nach der ersten Stunde mit Lucas konnte sie nicht aufhören, davon zu erzählen. Jetzt übt sie jeden Tag, ohne dass ich sie bitten muss.",
+          "author": "Maria S.",
+          "detail": "Mutter einer 8-jährigen Schülerin"
+        },
+        {
+          "quote": "Wir haben zwei andere Lehrer vor Lucas ausprobiert. Der Unterschied ist wie Tag und Nacht. Er hört wirklich zu, was die Kinder spielen wollen.",
+          "author": "Jens & Katrin W.",
+          "detail": "Eltern eines 11-jährigen Schülers"
+        },
+        {
+          "quote": "Mein Sohn hat nach 4 Monaten Unterricht beim Schulkonzert gespielt. Ich habe geweint. Lucas hat ihm das Selbstvertrauen gegeben, auf die Bühne zu gehen.",
+          "author": "Christina L.",
+          "detail": "Mutter eines 13-jährigen Schülers"
+        }
+      ]
+    },
+    "faq": {
+      "label": "Praktische Infos",
+      "heading": "Alles, was Eltern wissen müssen",
+      "items": [
+        { "q": "Wie lang sind die Stunden?", "a": "Stunden sind in 30, 45 und 60 Minuten verfügbar. Ich empfehle 30 oder 45 Minuten für die meisten Schüler. 60-Minuten-Stunden sind auf Anfrage ebenfalls möglich." },
+        { "q": "Braucht mein Kind eine eigene Gitarre?", "a": "Nicht für die erste Stunde — ich habe Instrumente da. Für regelmäßigen Unterricht empfehle ich, eine Gitarre anzuschaffen. Ich helfe gerne bei der Auswahl der richtigen Größe." },
+        { "q": "Wie viel Übung wird erwartet?", "a": "5-8 Jahre: Einfach zum Spaß spielen! 9-12 Jahre: 10-15 Minuten täglich. 13-18 Jahre: 20-30 Minuten täglich. Aber keine Hausaufgaben — Üben soll sich wie Spielen anfühlen, nicht wie Pflicht." },
+        { "q": "Wie ist die Stornierungsregelung?", "a": "72+ Stunden vor der Stunde: kostenlose Stornierung. Weniger als 48 Stunden: 50% Gebühr. Weniger als 24 Stunden: volle Gebühr." },
+        { "q": "Kann ich beim Unterricht dabei sein?", "a": "Für Kinder im Alter von 5-8 Jahren können Eltern die ersten 3 Stunden dabei sein. Danach nimmt das Kind alleine teil. Wir finden heraus, was am besten funktioniert." }
+      ]
+    },
+    "cta": {
+      "heading": "Lass uns den richtigen Weg für dein Kind finden",
+      "desc": "Buche ein kostenloses Gespräch über die Interessen und Ziele deines Kindes. Keine Verpflichtung, einfach ein freundliches Gespräch.",
+      "cta": "Kostenloses Gespräch",
+      "viewPricing": "Preise ansehen"
+    }
+  },
+  "teachingMethod": {
+    "hero": {
+      "label": "Unterrichtsmethode",
+      "heading": "So unterrichte ich",
+      "desc": "Jeder Schüler ist anders. Mein Ansatz passt sich deinen Zielen, deinem Tempo und der Musik an, die du liebst. Kein Unterricht von der Stange — nur ein Weg, der für dich funktioniert.",
+      "cta": "Kostenloses Gespräch"
+    },
+    "philosophy": {
+      "label": "Meine Philosophie",
+      "heading": "Vier Säulen für besseres Lernen",
+      "pillars": [
+        { "title": "Schülergeführtes Lernen", "desc": "Deine Interessen bestimmen den Unterrichtsplan. Wir starten mit dem, was dich begeistert." },
+        { "title": "Echte Musik ab Tag eins", "desc": "Keine monatelangen Tonleitern vor dem ersten Song. Du machst von der ersten Stunde an Musik." },
+        { "title": "Kleine Erfolge schaffen Selbstvertrauen", "desc": "Erreichbare Ziele jede Woche. Je mehr du schaffst, desto mehr willst du üben." },
+        { "title": "Lernen durch Spielen", "desc": "Weniger Theorie-Vorträge, mehr praktisches Spielen. Der beste Weg, Gitarre zu lernen, ist Gitarre zu spielen." }
+      ]
+    },
+    "ageGroups": {
+      "label": "Für jedes Alter",
+      "heading": "Unterricht, der sich an deine Stufe anpasst",
+      "groups": [
+        { "range": "5-8 Jahre", "title": "Kleine Musiker", "desc": "Spielerisches Entdecken. Kurze Übungen, lustige Songs, Koordination und Selbstvertrauen durch Spiele aufbauen." },
+        { "range": "9-12 Jahre", "title": "Grundlagen-Bauer", "desc": "Struktur trifft Spaß. Akkorde lernen, Lesebasics, echte Songs spielen, Übungsroutine aufbauen." },
+        { "range": "13-18 Jahre", "title": "Junge Künstler", "desc": "Selbstausdruck und Stil. Bandskills, Improvisation, Songwriting, Auftrittsvorbereitung." },
+        { "range": "Alle Alter", "title": "Erwachsene Lerner", "desc": "Es ist nie zu spät. Ob kompletter Anfänger oder Wiedereinsteiger — wir gehen in deinem Tempo." }
+      ]
+    },
+    "instruments": {
+      "label": "Instrumente",
+      "heading": "Finde deinen Sound",
+      "items": [
+        { "title": "E-Gitarre", "desc": "Von Classic Rock bis Jazz Fusion — entdecke Verzerrung, Effekte und Techniken, die deinen Sound definieren." },
+        { "title": "Akustische Gitarre", "desc": "Fingerpicking, Strumming und Songwriting. Das vielseitigste Instrument und die Grundlage von allem." },
+        { "title": "Bassgitarre", "desc": "Das Rückgrat jeder Band. Lerne Groove, Rhythmus, Slap-Technik und wie man alles zusammenhält." },
+        { "title": "Ukulele", "desc": "Spaßig, tragbar und der perfekte Einstieg. Ideal für junge Anfänger und alle, die schnell spielen wollen." }
+      ]
+    },
+    "genres": {
+      "label": "Genres",
+      "heading": "Lerne die Musik, die du liebst"
+    },
+    "lessonStructure": {
+      "label": "Unterrichtsaufbau",
+      "heading": "So sieht eine typische Stunde aus",
+      "steps": [
+        { "time": "5 Min", "title": "Aufwärmen", "desc": "Schnelle Übungen zum Lockern der Finger und Einstimmen." },
+        { "time": "10 Min", "title": "Technik-Fokus", "desc": "Gezieltes Üben einer bestimmten Fähigkeit — Akkorde, Tonleitern, Picking." },
+        { "time": "15 Min", "title": "Song-Arbeit", "desc": "Einen Song lernen und üben, den du gewählt hast. Das ist der spaßige Teil." },
+        { "time": "10 Min", "title": "Kreatives Spielen", "desc": "Improvisation, gemeinsam jammen oder etwas Neues entdecken." },
+        { "time": "5 Min", "title": "Rückblick & Ziele", "desc": "Was wir geschafft haben, was du üben sollst und Ziele für nächstes Mal." }
+      ]
+    },
+    "results": {
+      "label": "Ergebnisse",
+      "heading": "Wo meine Schüler landen",
+      "items": [
+        { "metric": "Woche 1", "title": "Erster Song", "desc": "Die meisten Schüler spielen einen erkennbaren Song in ihrer allerersten Stunde. Dieser Funke bringt sie immer wieder zurück." },
+        { "metric": "6 Monate", "title": "Erster Auftritt", "desc": "Vom schüchternen Anfänger zum selbstbewussten Performer. Viele Schüler spielen bei Schulveranstaltungen oder Familienfeiern." },
+        { "metric": "67 Jahre alt", "title": "Ältester Anfänger", "desc": "Es ist nie zu spät. Mein ältester Schüler hat bei null angefangen und spielt jetzt Jazz-Standards zu Hause." }
+      ]
+    },
+    "cta": {
+      "heading": "Lass uns über deine musikalischen Ziele sprechen",
+      "desc": "Buche ein kostenloses, unverbindliches Gespräch. Wir reden darüber, was du lernen möchtest, und ich erstelle einen Plan nur für dich.",
+      "cta": "Kostenloses Gespräch",
+      "viewPricing": "Preise ansehen"
+    }
+  },
+  "notFound": {
+    "heading": "Diesen Akkord gibt es nicht",
+    "desc": "Sieht aus, als hättest du eine falsche Note angeschlagen. Die Seite, die du suchst, ist nicht hier — aber die Musik ist nur einen Klick entfernt.",
+    "backHome": "Zur Startseite",
+    "viewLessons": "Unterricht ansehen",
+    "contactLucas": "Lucas kontaktieren"
+  },
+  "genres": ["Jazz", "Rock", "Blues", "Funk", "R&B", "Pop", "Klassik", "Fingerstyle", "Improvisation", "Songwriting"]
+}

@@ -2,40 +2,28 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/Button';
 import { Target, Star, Lightbulb, Infinity, Check, ChevronDown, ChevronUp } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 // Section 1: Hero
 const KidsHero = () => {
+  const { t } = useLanguage();
   return (
     <section className="w-full bg-coral pt-[calc(72px+4rem)] pb-[3rem] lg:pt-[calc(72px+7rem)] lg:pb-[5rem] px-4 lg:px-[clamp(24px,4vw,80px)]">
       <div className="animate-on-scroll max-w-site mx-auto grid grid-cols-4 lg:grid-cols-12 gap-[clamp(16px,2vw,24px)] items-center">
-        {/* Mobile: Video First */}
         <div className="col-span-4 lg:col-span-5 lg:col-start-8 lg:order-2 order-1 mb-8 lg:mb-0 flex justify-center lg:justify-end">
           <div className="w-full aspect-[16/9] rounded-xl overflow-hidden bg-warm-black shadow-offset-lg relative">
-            <video 
-              className="w-full h-full object-cover"
-              controls
-              playsInline
-              poster="/assets/portrait-headshot-blue-shirt-alt.avif"
-            >
+            <video className="w-full h-full object-cover" controls playsInline poster="/assets/portrait-headshot-blue-shirt-alt.avif">
               <source src="/assets/sweet-child-fullscreen-no-text.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
-
-        {/* Text */}
         <div className="col-span-4 lg:col-span-6 lg:order-1 order-2">
-          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-white/80 mb-4 block">
-            For Kids & Parents
-          </span>
-          <h1 className="font-serif text-[clamp(2rem,2rem+2vw,3.5rem)] leading-[1.1] text-white mb-6">
-            Guitar Lessons Your Kids Will Love
-          </h1>
-          <p className="font-sans text-[clamp(1rem,1rem+0.2vw,1.125rem)] leading-[1.6] text-white/85 max-w-[460px] mb-8">
-            Parent-friendly lessons designed for ages 5-18. Structured, encouraging, and built around what your child enjoys.
-          </p>
+          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-white/80 mb-4 block">{t('forKids.hero.label')}</span>
+          <h1 className="font-serif text-[clamp(2rem,2rem+2vw,3.5rem)] leading-[1.1] text-white mb-6">{t('forKids.hero.heading')}</h1>
+          <p className="font-sans text-[clamp(1rem,1rem+0.2vw,1.125rem)] leading-[1.6] text-white/85 max-w-[460px] mb-8">{t('forKids.hero.desc')}</p>
           <Link to="/contact">
             <button className="bg-white text-coral hover:bg-white/90 font-medium transition-all duration-200 ease-out rounded-md text-[13px] px-7 py-3.5 tracking-[0.3px] min-h-[44px]">
-              Book Free Meeting
+              {t('forKids.hero.cta')}
             </button>
           </Link>
         </div>
@@ -46,65 +34,32 @@ const KidsHero = () => {
 
 // Section 2: Why Music
 const WhyMusic = () => {
-  const benefits = [
-    {
-      color: '#3A7D8C', // Teal
-      icon: Target,
-      title: "Focus & Discipline",
-      desc: "Regular practice builds concentration and self-discipline — skills that translate to school and life."
-    },
-    {
-      color: '#E8A535', // Amber
-      icon: Star,
-      title: "Confidence",
-      desc: "Performing, even just for family, teaches kids they can do hard things. That belief carries them far."
-    },
-    {
-      color: '#E86F3A', // Coral
-      icon: Lightbulb,
-      title: "Creativity",
-      desc: "Music is one of the best outlets for creative expression. It gives kids a voice beyond words."
-    },
-    {
-      color: '#5B8F6E', // Green
-      icon: Infinity,
-      title: "A Lifelong Skill",
-      desc: "Unlike most hobbies, guitar stays with you forever. It's a gift they'll keep long after childhood."
-    }
-  ];
+  const { t, dict } = useLanguage();
+  const wm = dict.forKids.whyMusic;
+  const icons = [Target, Star, Lightbulb, Infinity];
+  const colors = ['#3A7D8C', '#E8A535', '#E86F3A', '#5B8F6E'];
 
   return (
     <section className="animate-on-scroll w-full bg-warm-bg py-[clamp(3rem,8vw,6rem)] px-4 lg:px-[clamp(24px,4vw,80px)]">
       <div className="max-w-site mx-auto">
         <div className="text-center mb-12">
-          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">
-            Why Music
-          </span>
-          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[600px] mx-auto mb-4">
-            More Than Just an Instrument
-          </h2>
-          <p className="font-sans text-[clamp(1rem,1rem+0.1vw,1.125rem)] text-warm-gray text-center max-w-[500px] mx-auto">
-            Learning guitar builds skills that go far beyond music.
-          </p>
+          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">{wm.label}</span>
+          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[600px] mx-auto mb-4">{wm.heading}</h2>
+          <p className="font-sans text-[clamp(1rem,1rem+0.1vw,1.125rem)] text-warm-gray text-center max-w-[500px] mx-auto">{wm.desc}</p>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[clamp(16px,2vw,24px)]">
-          {benefits.map((b, idx) => (
-            <div key={idx} className="stagger-child bg-white border border-warm-mid rounded-lg p-7">
-              <div 
-                className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
-                style={{ backgroundColor: `${b.color}1F` }}
-              >
-                <b.icon size={24} color={b.color} strokeWidth={2} />
+          {wm.benefits.map((b, idx) => {
+            const Icon = icons[idx];
+            return (
+              <div key={idx} className="stagger-child bg-white border border-warm-mid rounded-lg p-7">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: `${colors[idx]}1F` }}>
+                  <Icon size={24} color={colors[idx]} strokeWidth={2} />
+                </div>
+                <h3 className="font-serif text-[18px] text-warm-black mb-2">{b.title}</h3>
+                <p className="font-sans text-[14px] text-warm-gray leading-[1.5]">{b.desc}</p>
               </div>
-              <h3 className="font-serif text-[18px] text-warm-black mb-2">
-                {b.title}
-              </h3>
-              <p className="font-sans text-[14px] text-warm-gray leading-[1.5]">
-                {b.desc}
-              </p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
@@ -113,108 +68,41 @@ const WhyMusic = () => {
 
 // Section 3: Age Groups
 const AgeGroups = () => {
+  const { dict } = useLanguage();
+  const ag = dict.forKids.ageGroups;
+  const borderColors = ['border-coral', 'border-amber', 'border-teal'];
+  const badgeColors = ['#E86F3A', '#E8A535', '#3A7D8C'];
+  const checkColors = ['text-coral', 'text-amber', 'text-teal'];
+
   return (
     <section className="animate-on-scroll w-full bg-warm-surface py-[clamp(3rem,8vw,6rem)] px-4 lg:px-[clamp(24px,4vw,80px)]">
       <div className="max-w-site mx-auto">
         <div className="mb-12">
-          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">
-            Age Groups
-          </span>
-          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[500px]">
-            Every Age Has Its Own Path
-          </h2>
+          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">{ag.label}</span>
+          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[500px]">{ag.heading}</h2>
         </div>
-
         <div className="space-y-6">
-          {/* Group 1 */}
-          <div className="stagger-child bg-white rounded-lg p-8 border-l-[4px] border-coral max-w-[1400px] mx-auto">
-            <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-12">
-              <div className="md:w-1/3">
-                <span className="inline-block bg-[#E86F3A1F] text-coral font-sans text-[11px] font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-3">
-                  Ages 5-8
-                </span>
-                <h3 className="font-serif text-[clamp(1.25rem,1.5vw,1.5rem)] text-warm-black mb-4">
-                  Little Musicians
-                </h3>
-                <p className="font-sans text-[14px] text-warm-gray leading-[1.6]">
-                  Play-based learning with short, focused exercises. We use games, simple songs, and lots of encouragement. Sessions are 30 minutes to match attention spans. Parents can sit in.
-                </p>
-              </div>
-              <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {[
-                  "First songs in the first lesson",
-                  "Fun rhythm games and coordination exercises",
-                  "No pressure, no homework — just musical play",
-                  "30-minute sessions recommended"
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-3">
-                    <Check size={18} className="text-coral shrink-0 mt-[2px]" />
-                    <span className="font-sans text-[14px] text-warm-black">{item}</span>
-                  </div>
-                ))}
+          {ag.groups.map((group, idx) => (
+            <div key={idx} className={`stagger-child bg-white rounded-lg p-8 border-l-[4px] ${borderColors[idx]} max-w-[1400px] mx-auto`}>
+              <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-12">
+                <div className="md:w-1/3">
+                  <span className="inline-block font-sans text-[11px] font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-3" style={{ backgroundColor: `${badgeColors[idx]}1F`, color: badgeColors[idx] }}>
+                    {group.range}
+                  </span>
+                  <h3 className="font-serif text-[clamp(1.25rem,1.5vw,1.5rem)] text-warm-black mb-4">{group.title}</h3>
+                  <p className="font-sans text-[14px] text-warm-gray leading-[1.6]">{group.desc}</p>
+                </div>
+                <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {group.bullets.map((item, i) => (
+                    <div key={i} className="flex items-start gap-3">
+                      <Check size={18} className={`${checkColors[idx]} shrink-0 mt-[2px]`} />
+                      <span className="font-sans text-[14px] text-warm-black">{item}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* Group 2 */}
-          <div className="stagger-child bg-white rounded-lg p-8 border-l-[4px] border-amber max-w-[1400px] mx-auto">
-            <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-12">
-              <div className="md:w-1/3">
-                <span className="inline-block bg-[#E8A5351F] text-amber font-sans text-[11px] font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-3">
-                  Ages 9-12
-                </span>
-                <h3 className="font-serif text-[clamp(1.25rem,1.5vw,1.5rem)] text-warm-black mb-4">
-                  Foundation Builders
-                </h3>
-                <p className="font-sans text-[14px] text-warm-gray leading-[1.6]">
-                  This is where real progress happens. Students learn proper technique, basic theory, and start playing the songs they love. We introduce a light practice routine and set weekly goals.
-                </p>
-              </div>
-              <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {[
-                  "Chords, scales, and reading basics",
-                  "Songs they actually want to play",
-                  "Building a practice habit (10-15 min/day)",
-                  "45-minute sessions recommended"
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-3">
-                    <Check size={18} className="text-amber shrink-0 mt-[2px]" />
-                    <span className="font-sans text-[14px] text-warm-black">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Group 3 */}
-          <div className="stagger-child bg-white rounded-lg p-8 border-l-[4px] border-teal max-w-[1400px] mx-auto">
-             <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-12">
-              <div className="md:w-1/3">
-                <span className="inline-block bg-[#3A7D8C1F] text-teal font-sans text-[11px] font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-3">
-                  Ages 13-18
-                </span>
-                <h3 className="font-serif text-[clamp(1.25rem,1.5vw,1.5rem)] text-warm-black mb-4">
-                  Young Artists
-                </h3>
-                <p className="font-sans text-[14px] text-warm-gray leading-[1.6]">
-                  Teens want independence and self-expression. We dive into style, improvisation, and performance skills. Whether they're in a school band or learning for fun, lessons adapt to their goals.
-                </p>
-              </div>
-              <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {[
-                  "Genre specialization and personal style",
-                  "Improvisation and songwriting",
-                  "Band skills and ensemble playing",
-                  "45 or 60-minute sessions"
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-3">
-                    <Check size={18} className="text-teal shrink-0 mt-[2px]" />
-                    <span className="font-sans text-[14px] text-warm-black">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
@@ -223,36 +111,21 @@ const AgeGroups = () => {
 
 // Section 4: Curriculum
 const Curriculum = () => {
-  const skills = [
-    { title: "Proper Technique", desc: "Correct posture, hand position, and picking — building good habits from day one." },
-    { title: "Reading Basics", desc: "Tabs, chord diagrams, and basic notation — enough to learn any song independently." },
-    { title: "Real Songs", desc: "Songs they choose and love. This is what keeps kids motivated to practice." },
-    { title: "Rhythm & Timing", desc: "Strumming patterns, counting, and playing in time — the foundation of good music." },
-    { title: "Music Theory", desc: "Age-appropriate theory that makes sense. Not boring worksheets — practical understanding." },
-    { title: "Stage Confidence", desc: "Gentle performance practice. From playing for family to school concerts." }
-  ];
+  const { dict } = useLanguage();
+  const cur = dict.forKids.curriculum;
 
   return (
     <section className="animate-on-scroll w-full bg-warm-bg py-[clamp(3rem,8vw,6rem)] px-4 lg:px-[clamp(24px,4vw,80px)]">
       <div className="max-w-site mx-auto">
         <div className="mb-12">
-          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">
-            Curriculum
-          </span>
-          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[500px]">
-            What Your Child Will Learn
-          </h2>
+          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">{cur.label}</span>
+          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[500px]">{cur.heading}</h2>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[clamp(16px,2vw,24px)]">
-          {skills.map((skill, idx) => (
+          {cur.skills.map((skill, idx) => (
             <div key={idx} className="stagger-child p-6">
-              <h3 className="font-sans text-[14px] font-bold text-warm-black mb-2">
-                {skill.title}
-              </h3>
-              <p className="font-sans text-[13px] text-warm-gray leading-[1.6]">
-                {skill.desc}
-              </p>
+              <h3 className="font-sans text-[14px] font-bold text-warm-black mb-2">{skill.title}</h3>
+              <p className="font-sans text-[13px] text-warm-gray leading-[1.6]">{skill.desc}</p>
             </div>
           ))}
         </div>
@@ -263,52 +136,32 @@ const Curriculum = () => {
 
 // Section 5: First Lesson
 const FirstLesson = () => {
-  const steps = [
-    { title: "Meet Lucas", desc: "A friendly introduction. We talk about what your child likes, their experience, and what they want to learn." },
-    { title: "Try the Guitar", desc: "Your child picks up the guitar (I have instruments if needed). We explore sounds, strings, and what feels comfortable." },
-    { title: "Play a Simple Tune", desc: "By the end of the first lesson, most kids play a recognizable melody. This is the 'aha' moment." },
-    { title: "Set Goals Together", desc: "We discuss a fun plan for the coming weeks. Parents get a clear picture of what to expect." }
-  ];
+  const { dict } = useLanguage();
+  const fl = dict.forKids.firstLesson;
 
   return (
     <section className="animate-on-scroll w-full bg-warm-surface py-[clamp(3rem,8vw,6rem)] px-4 lg:px-[clamp(24px,4vw,80px)]">
       <div className="max-w-site mx-auto">
         <div className="text-center mb-12">
-          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">
-            First Lesson
-          </span>
-          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[600px] mx-auto mb-4">
-            What to Expect on Day One
-          </h2>
-          <p className="font-sans text-[clamp(1rem,1rem+0.1vw,1.125rem)] text-warm-gray text-center">
-            No pressure, no tests, just music.
-          </p>
+          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">{fl.label}</span>
+          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black max-w-[600px] mx-auto mb-4">{fl.heading}</h2>
+          <p className="font-sans text-[clamp(1rem,1rem+0.1vw,1.125rem)] text-warm-gray text-center">{fl.desc}</p>
         </div>
-
         <div className="max-w-[1000px] mx-auto">
-          {/* Desktop Steps */}
           <div className="hidden sm:grid grid-cols-4 gap-6 relative">
-            {/* Connecting Line */}
             <div className="absolute top-[18px] left-[12%] right-[12%] h-[1px] bg-warm-mid -z-1" />
-            
-            {steps.map((step, idx) => (
+            {fl.steps.map((step, idx) => (
               <div key={idx} className="stagger-child flex flex-col items-center text-center bg-warm-surface z-10 px-2">
-                <div className="w-9 h-9 rounded-full bg-coral text-white font-sans text-[14px] font-bold flex items-center justify-center mb-4 shadow-sm">
-                  {idx + 1}
-                </div>
+                <div className="w-9 h-9 rounded-full bg-coral text-white font-sans text-[14px] font-bold flex items-center justify-center mb-4 shadow-sm">{idx + 1}</div>
                 <h4 className="font-sans text-[14px] font-bold text-warm-black mb-2">{step.title}</h4>
                 <p className="font-sans text-[13px] text-warm-gray leading-[1.5]">{step.desc}</p>
               </div>
             ))}
           </div>
-
-          {/* Mobile Steps */}
           <div className="sm:hidden flex flex-col gap-0 border-l-2 border-warm-mid ml-4">
-            {steps.map((step, idx) => (
+            {fl.steps.map((step, idx) => (
               <div key={idx} className="stagger-child flex flex-col items-start pl-6 pb-8 relative last:pb-0">
-                 <div className="absolute -left-[19px] top-0 w-9 h-9 rounded-full bg-coral text-white font-sans text-[14px] font-bold flex items-center justify-center border-4 border-warm-surface">
-                  {idx + 1}
-                </div>
+                 <div className="absolute -left-[19px] top-0 w-9 h-9 rounded-full bg-coral text-white font-sans text-[14px] font-bold flex items-center justify-center border-4 border-warm-surface">{idx + 1}</div>
                 <h4 className="font-sans text-[14px] font-bold text-warm-black mb-1 mt-1">{step.title}</h4>
                 <p className="font-sans text-[13px] text-warm-gray leading-[1.5]">{step.desc}</p>
               </div>
@@ -322,50 +175,24 @@ const FirstLesson = () => {
 
 // Section 6: Testimonials
 const ParentTestimonials = () => {
-  const testimonials = [
-    {
-      quote: "My daughter was nervous about starting. After the first lesson with Lucas, she couldn't stop talking about it. Now she practices every day without me asking.",
-      author: "Maria S.",
-      detail: "Mother of 8-year-old student"
-    },
-    {
-      quote: "We tried two other teachers before Lucas. The difference is night and day. He actually listens to what the kids want to play.",
-      author: "Jens & Katrin W.",
-      detail: "Parents of 11-year-old student"
-    },
-    {
-      quote: "My son played at his school concert after 4 months of lessons. I cried. Lucas gave him the confidence to get on that stage.",
-      author: "Christina L.",
-      detail: "Mother of 13-year-old student"
-    }
-  ];
+  const { dict } = useLanguage();
+  const pt = dict.forKids.parentTestimonials;
 
   return (
     <section className="animate-on-scroll w-full bg-warm-bg py-[clamp(3rem,8vw,6rem)] px-4 lg:px-[clamp(24px,4vw,80px)]">
       <div className="max-w-site mx-auto">
         <div className="mb-12">
-          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">
-            From Parents
-          </span>
-          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black">
-            What Parents Are Saying
-          </h2>
+          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">{pt.label}</span>
+          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black">{pt.heading}</h2>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[clamp(16px,2vw,24px)]">
-          {testimonials.map((t, idx) => (
+          {pt.items.map((item, idx) => (
             <div key={idx} className="stagger-child bg-white border border-warm-mid rounded-lg p-7">
               <div className="font-serif text-[48px] text-brown/15 leading-none mb-2">"</div>
-              <p className="font-sans text-[16px] font-normal leading-[1.6] text-warm-black mb-6">
-                "{t.quote}"
-              </p>
+              <p className="font-sans text-[16px] font-normal leading-[1.6] text-warm-black mb-6">"{item.quote}"</p>
               <div>
-                <p className="font-sans text-[14px] font-semibold text-warm-black">
-                  {t.author}
-                </p>
-                <p className="font-sans text-[12px] text-warm-gray mt-1">
-                  {t.detail}
-                </p>
+                <p className="font-sans text-[14px] font-semibold text-warm-black">{item.author}</p>
+                <p className="font-sans text-[12px] text-warm-gray mt-1">{item.detail}</p>
               </div>
             </div>
           ))}
@@ -378,53 +205,27 @@ const ParentTestimonials = () => {
 // Section 7: FAQ
 const PracticalInfo = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const { dict } = useLanguage();
+  const faq = dict.forKids.faq;
 
-  const faqs = [
-    { q: "How long are lessons?", a: "Lessons are available in 30, 45, and 60 minutes. I recommend 30 or 45 minutes for most students. 60-minute sessions are also available on request." },
-    { q: "Does my child need their own guitar?", a: "Not for the first lesson — I have instruments available. For regular lessons, I recommend getting a guitar. I can help you choose the right one for your child's age and size." },
-    { q: "How much practice is expected?", a: "Ages 5-8: Just play for fun! Ages 9-12: 10-15 minutes daily. Ages 13-18: 20-30 minutes daily. But there's no homework — practice should feel like play, not a chore." },
-    { q: "What's the cancellation policy?", a: "72+ hours before your lesson: free cancellation. Less than 48 hours notice: 50% charge. Less than 24 hours notice: full charge." },
-    { q: "Can I sit in on lessons?", a: "For children ages 5-8, parents may sit in for the first 3 lessons. After that, the child attends independently. We'll figure out what works." }
-  ];
-
-  const toggle = (idx: number) => {
-    setOpenIndex(openIndex === idx ? null : idx);
-  };
+  const toggle = (idx: number) => { setOpenIndex(openIndex === idx ? null : idx); };
 
   return (
     <section className="animate-on-scroll w-full bg-warm-surface py-[clamp(3rem,8vw,6rem)] px-4 lg:px-[clamp(24px,4vw,80px)]">
       <div className="max-w-site mx-auto">
         <div className="mb-12">
-          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">
-            Practical Info
-          </span>
-          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black">
-            Everything Parents Need to Know
-          </h2>
+          <span className="font-sans text-[11px] font-bold uppercase tracking-[1.5px] text-brown mb-3 block">{faq.label}</span>
+          <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-warm-black">{faq.heading}</h2>
         </div>
-
         <div className="max-w-[1400px] mx-auto">
-          {faqs.map((faq, idx) => (
+          {faq.items.map((item, idx) => (
             <div key={idx} className="stagger-child bg-white border border-warm-mid rounded-lg mb-2 overflow-hidden">
-              <button 
-                onClick={() => toggle(idx)}
-                className="w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none"
-              >
-                <span className="font-sans text-[15px] font-semibold text-warm-black pr-4">{faq.q}</span>
-                {openIndex === idx ? (
-                  <ChevronUp size={20} className="text-warm-gray shrink-0" />
-                ) : (
-                  <ChevronDown size={20} className="text-warm-gray shrink-0" />
-                )}
+              <button onClick={() => toggle(idx)} className="w-full text-left px-6 py-5 flex justify-between items-center focus:outline-none">
+                <span className="font-sans text-[15px] font-semibold text-warm-black pr-4">{item.q}</span>
+                {openIndex === idx ? <ChevronUp size={20} className="text-warm-gray shrink-0" /> : <ChevronDown size={20} className="text-warm-gray shrink-0" />}
               </button>
-              <div 
-                className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${
-                  openIndex === idx ? 'max-h-[200px] pb-5 opacity-100' : 'max-h-0 opacity-0'
-                }`}
-              >
-                <p className="font-sans text-[14px] text-warm-gray leading-[1.6]">
-                  {faq.a}
-                </p>
+              <div className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${openIndex === idx ? 'max-h-[200px] pb-5 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <p className="font-sans text-[14px] text-warm-gray leading-[1.6]">{item.a}</p>
               </div>
             </div>
           ))}
@@ -436,24 +237,21 @@ const PracticalInfo = () => {
 
 // Section 8: CTA
 const PageCTA = () => {
+  const { t } = useLanguage();
   return (
     <section className="animate-on-scroll w-full bg-coral py-[clamp(3rem,8vw,5rem)] px-4 lg:px-[clamp(24px,4vw,80px)] text-center">
        <div className="max-w-[700px] mx-auto">
-         <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-white mb-4">
-           Let's Find the Right Path for Your Child
-         </h2>
-         <p className="font-sans text-[clamp(1rem,1rem+0.2vw,1.125rem)] text-white/85 max-w-[500px] mx-auto mb-8 leading-[1.6]">
-           Book a free meeting to discuss your child's interests and goals. No commitment, just a friendly conversation.
-         </p>
+         <h2 className="font-serif text-[clamp(1.5rem,1.5rem+1.5vw,2.5rem)] leading-[1.2] text-white mb-4">{t('forKids.cta.heading')}</h2>
+         <p className="font-sans text-[clamp(1rem,1rem+0.2vw,1.125rem)] text-white/85 max-w-[500px] mx-auto mb-8 leading-[1.6]">{t('forKids.cta.desc')}</p>
          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
            <Link to="/contact" className="w-full sm:w-auto">
               <button className="w-full sm:w-auto bg-white text-coral hover:bg-white/90 font-medium transition-all duration-200 ease-out rounded-md text-[13px] px-7 py-3.5 tracking-[0.3px] min-h-[44px]">
-                Book Free Meeting
+                {t('forKids.cta.cta')}
               </button>
            </Link>
            <Link to="/pricing" className="w-full sm:w-auto">
              <button className="w-full sm:w-auto bg-transparent border-2 border-white rounded-full px-7 py-[14px] text-white font-sans text-[13px] font-medium min-h-[44px] hover:bg-white hover:text-coral transition-all duration-200">
-                View Pricing
+                {t('forKids.cta.viewPricing')}
              </button>
            </Link>
          </div>

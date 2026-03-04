@@ -1,12 +1,9 @@
 import React from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const TrustBar: React.FC = () => {
-  const stats = [
-    { value: "8+", label: "Years Teaching" },
-    { value: "200+", label: "Students Taught" },
-    { value: "Multiple", label: "Styles & Genres" },
-    { value: "Berlin", label: "Based & Teaching" },
-  ];
+  const { dict } = useLanguage();
+  const stats = dict.trustBar.stats;
 
   return (
     <div className="animate-on-scroll w-full bg-white border-b border-warm-mid">
