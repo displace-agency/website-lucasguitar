@@ -227,7 +227,7 @@
     "comparison": {
       "label": "Vergleich",
       "heading": "Welche Option passt zu dir?",
-      "headers": ["Merkmal", "Probe", "Einzel", "10er-Paket"],
+      "headers": ["Merkmal", "Probe", "Einzel", "12er-Paket"],
       "rows": [
         { "feature": "Dauer", "trial": "30 Min", "single": "45 oder 60 Min", "pack": "45 oder 60 Min" },
         { "feature": "Individueller Plan", "trial": "Basis", "single": "Voll", "pack": "Voll" },

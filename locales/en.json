@@ -227,7 +227,7 @@
     "comparison": {
       "label": "Compare",
       "heading": "Which Option Is Right for You?",
-      "headers": ["Feature", "Trial", "Single", "10-Pack"],
+      "headers": ["Feature", "Trial", "Single", "12-Pack"],
       "rows": [
         { "feature": "Duration", "trial": "30 min", "single": "45 or 60 min", "pack": "45 or 60 min" },
         { "feature": "Personalized plan", "trial": "Basic", "single": "Full", "pack": "Full" },
